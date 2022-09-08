@@ -57,3 +57,4 @@ class BookTests(TestCase):
         self.assertContains(response, "test title")
         self.assertContains(response, "thats nice")
         self.assertTemplateUsed(response, "books/book_detail.html")
+        
